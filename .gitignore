@@ -172,3 +172,19 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# pytest cache and coverage
+.pytest_cache/
+.coverage
+
+# Environment files (если используешь virtualenv рядом)
+env/
+venv/
+.calculator/
+
+# VS Code settings (если не хочешь коммитить их)
+.vscode/
